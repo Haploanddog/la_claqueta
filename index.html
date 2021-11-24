@@ -1,8 +1,9 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!DOCTYPE html>
 
 <html>
 	<head>
 		<title>La Claqueta</title>
+		<meta charset="utf-8">
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
 	</head>
 
@@ -14,9 +15,9 @@
 		</header>
 
 		<nav>
-			<li><a rel="Inicio" href="/inicio/" > Inicio <a/></li>
-			<li><a rel="¿Quienes somos?"  href="/quienessomos/"> ¿Quiénes somos? </a></li>
-			<li><a rel="Contacto"  href="/contacto/"> Contacto <a/></li>
+			<p><a rel="Inicio" href="/index.html" > Inicio <a/></p>
+			<p><a rel="¿Quienes somos?"  href="quienes_somos.html"target="_blank" rel="noopener noreferrer"> ¿Quiénes somos? </a></p>
+			<p><a rel="Contacto"  href="/contacto/"> Contacto <a/></p>
 			<li><img rel
 		</nav>
 
@@ -65,12 +66,12 @@
 		</article>
 
 		<footer>
-			<p rel="nombres">Ana y Pedro</p>
+			<p @id="nombres">Ana y Pedro</p>
 
-			<form>
+			<form @id="formulario">
 				<p>Suscríbete a nuestra <i>newsletter</i></p>
-
-				<input type="submit" value="Enviar" id="boton">Deja tu email</input>
+				<input type="text" autocomplete="email" placeholder="inserte email">
+				<input type="submit" value="Enviar" id="boton"></input>
 
 
 			</form>
