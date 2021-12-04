@@ -8,73 +8,87 @@
 	</head>
 
 	<body>
-		<header>
-			<h1>La Claqueta</h1>
-			<img src="img\logo.png" height="200px">
+		<div id="container">
+			<header>
+				<img class:"logo" src="img\logo.png" height="150px">
+				<h1 class="Claqueta">La Claqueta</h1>
+			</header>
 
-		</header>
+			<nav>
+				<ul>
+					<li><a rel="Inicio" href="index.html" > Inicio <a/></li>
+					<li><a rel="¿Quienes somos?"  href="quienes_somos.html"target="_blank" rel="noopener noreferrer"> ¿Quiénes somos? </a></li>
+					<li><a rel="Contacto"  href="contacto.html" > Contacto <a/></li>
+				</ul>
+				
+				
+			</nav>
+			<section id="content">
+				<article class="article">
+					<h1 rel="titulo">Dune</h1>
+					<img Class="logoDune" src="img\Dune.jpg" alt="Cartel de la película 'Dune' (2021)"></img>
+					<div Class="infopeli">
+						<table border="1">
+						<tbody>
+							<tr><td>Nombre</td><td>Dune</td></tr>
+							<tr><td>Director</td><td></td></tr>
+							<tr><td>Año</td><td></td></tr>
+							<tr><td>Actores</td><td>
+								<ul>Timothée Chalamet</ul>
+								<ul>Zendaya</ul>
+								<ul>Rebecca Ferguson</ul>
+								<ul>Oscar Isaac</ul>
+							</td></tr>
+						<tr><td>Productora</td><td></td></tr>
+						</tbody>
+						</table>
+						<h4>Crítica</h4>
+						<p>Este análisis está realizado</p>
+						<p>Valoración: 10/10</p>
+					</div>
+				</article>
 
-		<nav>
-			<p><a rel="Inicio" href="/index.html" > Inicio <a/></p>
-			<p><a rel="¿Quienes somos?"  href="quienes_somos.html"target="_blank" rel="noopener noreferrer"> ¿Quiénes somos? </a></p>
-			<p><a rel="Contacto"  href="/contacto/"> Contacto <a/></p>
-			<li><img rel
-		</nav>
-
-		<article>
-			<h1 rel="titulo">Dune</h1>
-			<img src="Dune.jpg"</img>
-			<table border="1">
-			<tbody>
-				<tr><td>Nombre</td><td>Dune</td></tr>
-				<tr><td>Director</td><td></td></tr>
-				<tr><td>Año</td><td></td></tr>
-				<tr><td>Actores</td><td>
-					<ul>Timothée Chalamet</ul>
-					<ul>Zendaya</ul>
-					<ul>Rebecca Ferguson</ul>
-					<ul>Oscar Isaac</ul>
-				</td></tr>
-			<tr><td>Productora</td><td></td></tr>
-			</tbody>
-			</table>
-			<h4>Crítica</h4>
-			<p>Este análisis está realizado</p>
-			<p>Valoración: 10/10</p>
-		</article>
-
-		<article>
-			<h1 rel="titulo">Mother!</h1>
-			<img src="img\mother.jpg"</img>
-			<table border="1">
-			<tbody>
-				<tr><td>Nombre</td><td>Dune</td></tr>
-				<tr><td>Director</td><td>Darren Aronofsky</td></tr>
-				<tr><td>Año</td><td></td>2017</tr>
-				<tr><td>Actores</td><td>
-					<ul>Jennifer Lawrence</ul>
-					<ul>Javier Bardem</ul>
-					<ul>Michelle Pfeiffer</ul>
-					<ul>Ed Harris</ul>
-				</td></tr>
-			<tr><td>Productora</td><td>Protozoa Pictures</td></tr>
-			</tbody>
-			</table>
-			<h4>Crítica</h4>
-			<p>Este análisis está realizado</p>
-			<p>Valoración: 10/10</p>
-		</article>
-
-		<footer>
-			<p @id="nombres">Ana y Pedro</p>
-
-			<form @id="formulario">
-				<p>Suscríbete a nuestra <i>newsletter</i></p>
-				<input type="text" autocomplete="email" placeholder="inserte email">
-				<input type="submit" value="Enviar" id="boton"></input>
-
-
-			</form>
-		</footer>
+				<article class="article">
+					<h1 rel="titulo">Mother!</h1>
+					<img Class="logoMother" src="img\mother.jpg" alt="Cartel de la película Mother! (2017)"></img>
+					<div class="infopeli"></div>
+						<table border="1">
+						<tbody>
+							<tr><td>Nombre</td><td>Dune</td></tr>
+							<tr><td>Director</td><td>Darren Aronofsky</td></tr>
+							<tr><td>Año</td><td>2017</td></tr>
+							<tr><td>Actores</td><td>
+								<ul>Jennifer Lawrence</ul>
+								<ul>Javier Bardem</ul>
+								<ul>Michelle Pfeiffer</ul>
+								<ul>Ed Harris</ul>
+							</td></tr>
+						<tr><td>Productora</td><td>Protozoa Pictures</td></tr>
+						</tbody>
+						</table>
+						<h4>Crítica</h4>
+						<p>Este análisis está realizado</p>
+						<p>Valoración: 10/10</p>
+					</div>
+				</article>
+			</section>
+			<aside>
+				<h1> Películas valoradas </h1>
+				<p>Dune</p>
+				<p>Mother!</p>
+			<footer>
+				
+				<div class="newsletter">
+					<form>
+						<p>Suscríbete a nuestra <i>newsletter</i></p>
+						<input type="text" autocomplete="email" placeholder="inserte email">
+						<input type="submit" value="Enviar" id="boton"></input>
+				</div>
+				<div class="nombres">
+						<p>Ana y Pedro</p>
+				</div>
+				</form>
+			</footer>
+		</div>
 	</body>
 </html>
